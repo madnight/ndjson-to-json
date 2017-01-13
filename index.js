@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var fs = require('fs');
 fs.readFile(__dirname + "/" + process.argv[2], function(err, data) {
     if (err) {
