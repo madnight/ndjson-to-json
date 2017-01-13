@@ -1,0 +1,23 @@
+{
+  "name": "ndjson-to-json",
+  "version": "0.0.1",
+  "description": "convert NDJSON to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madnight/ndjson-to-json.git"
+  },
+  "keywords": [
+    "ndjson",
+    "json"
+  ],
+  "author": "Fabian Beuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madnight/ndjson-to-json/issues"
+  },
+  "homepage": "https://github.com/madnight/ndjson-to-json#readme"
+}
