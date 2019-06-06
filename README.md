@@ -13,10 +13,13 @@ Its also the download format that is used in Google Big Query.
 http://ndjson.org
 
 # Installation
-npm install -g ndjson-to-json
+`npm install -g ndjson-to-json`
 
 # Usage
-ndjson-to-json file.json
+`ndjson-to-json file.json`
+
+Or use with npx without installing it on beforehand:
+`npx ndjson-to-json file.json`
 
 # Example
 Github Licenses downloaded from Google BigQuery in NDJSON format
