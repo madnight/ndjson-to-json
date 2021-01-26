@@ -16,7 +16,7 @@ http://ndjson.org
 `npm install -g ndjson-to-json`
 
 # Usage
-`ndjson-to-json file.json`
+`ndjson-to-json ndjson-file.json > file.json`
 
 Or use with npx without installing it on beforehand:
 `npx ndjson-to-json file.json`
