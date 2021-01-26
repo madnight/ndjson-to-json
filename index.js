@@ -1,10 +1,15 @@
 #!/usr/bin/env node
-var fs = require('fs');
-fs.readFile(process.env.PWD + "/" + process.argv[2], function(err, data) {
+const fs = require('fs');
+fs.readFile(process.env.PWD + "/" + process.argv[2], function (err, data) {
     if (err) {
         console.log(err);
     } else {
-        var x = data.toString().trim().split('\n').map(JSON.parse);
-        process.stdout.write(JSON.stringify(x));
+        const x = data.toString().trim().split('\n').map(JSON.parse);
+        const convertedFileData = JSON.stringify(x);
+        fs.writeFile(process.env.PWD + "/" + process.argv[2] + '_coverted', convertedFileData, function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        });
     }
 });
