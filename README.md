@@ -16,10 +16,11 @@ http://ndjson.org
 `npm install -g ndjson-to-json`
 
 # Usage
-`ndjson-to-json ndjson-file.json > file.json`
+Print json to stdout: `ndjson-to-json ndjson-file.json`
 
-Or use with npx without installing it on beforehand:
-`npx ndjson-to-json file.json`
+Output json to a new file: `ndjson-to-json ndjson-input.json -o output.json`
+
+Use with npx without install: `npx ndjson-to-json file.json`
 
 # Example
 Github Licenses downloaded from Google BigQuery in NDJSON format
