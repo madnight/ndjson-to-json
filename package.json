@@ -1,6 +1,6 @@
 {
   "name": "ndjson-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert NDJSON to JSON",
   "main": "index.js",
   "bin": {
